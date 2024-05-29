@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b10e5b22-76fc-4e96-ae47-364349376ee2" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/first.png" afterDir="false" />
@@ -13,6 +14,11 @@
       <change afterPath="$PROJECT_DIR$/src/test.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Finals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Finals.iml" afterDir="false" />
+=======
+    <list default="true" id="b10e5b22-76fc-4e96-ae47-364349376ee2" name="Changes" comment="Added Buttons in the Body Part of the Menu&#10;Added the function to getSource">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WindowApp.java" afterDir="false" />
+>>>>>>> e3419503c6d3d97a7379d9028e1552e53372bf1c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +36,30 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Jacinth-Branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Jacinth091&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "Jacinth091"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "author": "Jacinth091"
   }
-}</component>
+}]]></component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,6 +67,9 @@
         <option name="url" value="https://github.com/Jacinth091/Self-Serve-Kiosk-System.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -61,6 +83,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MainApp.executor": "Run",
+<<<<<<< HEAD
     "Application.demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,6 +98,29 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/laroc/AppData/Local/SceneBuilder/SceneBuilder.exe",
+=======
+    "Application.Test2.executor": "Run",
+    "Application.arrayIMPLEMENT.executor": "Run",
+    "Application.menu.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGitLive.ShowToolbar": "false",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "left",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "389",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "right",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "405",
+    "app.teamhub.selectedTeam": "github.com/Jacinth091/Self-Serve-Kiosk-System",
+    "app.teamhub.trackedBranches": "-19lmspi/master,-19lmspi/Jacinth-Branch",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PCC/Desktop/CODING FILES/ProgLang - Hello World/Java/Projects/ComProg_Project_Calculator",
+>>>>>>> e3419503c6d3d97a7379d9028e1552e53372bf1c
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -82,11 +128,22 @@
   }
 }]]></component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\final comprog\Self-Serve-Kiosk-System\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.demo">
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PCC\Desktop\Finals\src\Assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+>>>>>>> e3419503c6d3d97a7379d9028e1552e53372bf1c
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MainApp" />
       <module name="Finals" />
@@ -124,6 +181,59 @@
       <option name="presentableId" value="Default" />
       <updated>1716729768108</updated>
     </task>
+<<<<<<< HEAD
     <servers />
   </component>
+=======
+    <task id="LOCAL-00001" summary="Test Commit Jacinth Branch">
+      <option name="closed" value="true" />
+      <created>1716802738038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716802738038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java FX test branch">
+      <option name="closed" value="true" />
+      <created>1716872326239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716872326239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="testGui in java swing branch">
+      <option name="closed" value="true" />
+      <created>1716905824852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716905824852</updated>
+    </task>
+    <task id="LOCAL-00004" summary="testGui in java swing branch">
+      <option name="closed" value="true" />
+      <created>1716905834005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716905834005</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Buttons in the Body Part of the Menu&#10;Added the function to getSource">
+      <option name="closed" value="true" />
+      <created>1716950527487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716950527487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commit Jacinth Branch" />
+    <MESSAGE value="Java FX test branch" />
+    <MESSAGE value="testGui in java swing branch" />
+    <MESSAGE value="Added Buttons in the Body Part of the Menu&#10;Added the function to getSource" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Buttons in the Body Part of the Menu&#10;Added the function to getSource" />
+  </component>
+>>>>>>> e3419503c6d3d97a7379d9028e1552e53372bf1c
 </project>
