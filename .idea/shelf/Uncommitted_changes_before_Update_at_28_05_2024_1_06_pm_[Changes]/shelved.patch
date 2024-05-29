@@ -1,0 +1,151 @@
+Index: src/demo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/demo.java b/src/demo.java
+new file mode 100644
+--- /dev/null	(date 1716872658292)
++++ b/src/demo.java	(date 1716872658292)
+@@ -0,0 +1,42 @@
++//package application;
++
++import javafx.application.Application;
++import javafx.stage.Stage;
++import javafx.scene.Group;
++import javafx.scene.Scene;
++import javafx.scene.image.Image;
++import javafx.scene.input.KeyCombination;
++import javafx.scene.layout.BorderPane;
++import javafx.scene.paint.Color;
++
++
++public class demo extends Application {
++
++
++    public static void main(String[] args) {
++        launch(args);
++    }
++
++    @Override
++    public void start(Stage stage) throws Exception {
++
++        //Stage stage = new Stage();
++        Group root = new Group();
++        Scene scene = new Scene(root,Color.BLACK);
++
++        //Image icon = new Image("icon.png");
++        //stage.getIcons().add(icon);
++        //stage.setTitle("Stage Demo Program w00t w00t");
++        //stage.setWidth(420);
++        //stage.setHeight(420);
++        //stage.setResizable(false);
++        //stage.setX(50);
++        //stage.setY(50);
++        //stage.setFullScreen(true);
++        //stage.setFullScreenExitHint("YOU CAN'T ESCAPE unless you press q");
++        //stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
++
++        stage.setScene(scene);
++        stage.show();
++    }
++}
+\ No newline at end of file
+Index: Finals.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Finals.iml b/Finals.iml
+--- a/Finals.iml	(revision d586263abd9ba8d6c02cb4cc5650e9b3b6351081)
++++ b/Finals.iml	(date 1716872506705)
+@@ -7,5 +7,6 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="javafx-swt" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b10e5b22-76fc-4e96-ae47-364349376ee2\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/WindowApp.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/WindowApp.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"Jacinth091\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"3a8fc607-3018-40dc-9a57-458f691b2ba5\" />\r\n        <option name=\"url\" value=\"https://github.com/Jacinth091/Self-Serve-Kiosk-System.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2h0SzvQPy3dO7Y2lqFClt59chLN\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW\": \"false\",\r\n    \"UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE\": \"right\",\r\n    \"UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH\": \"389\",\r\n    \"UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW\": \"true\",\r\n    \"UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE\": \"left\",\r\n    \"app.teamhub.trackedBranches\": \"-19lmspi/master\",\r\n    \"git-widget-placeholder\": \"Jacinth-Branch\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/PCC/Desktop/Finals\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-17.0.10-temurin-17.0.10-3183f394aec4-87f3d08d\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b10e5b22-76fc-4e96-ae47-364349376ee2\" name=\"Changes\" comment=\"\" />\r\n      <created>1716729768108</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1716729768108</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d586263abd9ba8d6c02cb4cc5650e9b3b6351081)
++++ b/.idea/workspace.xml	(date 1716872682371)
+@@ -5,8 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="b10e5b22-76fc-4e96-ae47-364349376ee2" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/demo.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WindowApp.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Finals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Finals.iml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,12 +29,12 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "Jacinth091"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Jacinth091&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -52,6 +53,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Application.Main.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+@@ -61,18 +63,24 @@
+     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
+     "app.teamhub.trackedBranches": "-19lmspi/master",
+-    "git-widget-placeholder": "Jacinth-Branch",
++    "git-widget-placeholder": "master",
+     "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/PCC/Desktop/Finals"
++    "last_opened_file_path": "C:/javafx-sdk-22.0.1/lib/javafx.web.jar",
++    "project.structure.last.edited": "Libraries",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0"
+   }
+ }]]></component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="jdk-17.0.10-temurin-17.0.10-3183f394aec4-87f3d08d" />
+-      </set>
+-    </attachedChunks>
++  <component name="RunManager">
++    <configuration name="Main" type="Application" factoryName="Application">
++      <option name="MAIN_CLASS_NAME" value="demo" />
++      <module name="Finals" />
++      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">

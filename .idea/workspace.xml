@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10e5b22-76fc-4e96-ae47-364349376ee2" name="Changes" comment="Test Commit Jacinth Branch">
+    <list default="true" id="b10e5b22-76fc-4e96-ae47-364349376ee2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guiswing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Finals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Finals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WindowApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -56,36 +61,52 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MainApp.executor": "Run",
+    "Application.demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowGitLive.ShowToolbar": "false",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "389",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
-    "app.teamhub.selectedTeam": "github.com/Jacinth091/Self-Serve-Kiosk-System",
-    "app.teamhub.trackedBranches": "-19lmspi/master,-19lmspi/Jacinth-Branch",
-    "git-widget-placeholder": "Jacinth-Branch",
+    "app.teamhub.trackedBranches": "-19lmspi/master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/PCC/Desktop/SDK's/javafx-sdk-21.0.3/lib/javafx.web.jar",
+    "last_opened_file_path": "C:/Users/laroc/AppData/Local/SceneBuilder/SceneBuilder.exe",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2214429",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\final comprog\Self-Serve-Kiosk-System\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.demo">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MainApp" />
       <module name="Finals" />
-      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\Users\PCC\Desktop\SDK's\javafx-sdk-21.0.3\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <module name="Finals" />
+      <option name="VM_PARAMETERS" value=" --module-path &quot;C:\javafx-sdk-22.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.demo" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -103,19 +124,6 @@
       <option name="presentableId" value="Default" />
       <updated>1716729768108</updated>
     </task>
-    <task id="LOCAL-00001" summary="Test Commit Jacinth Branch">
-      <option name="closed" value="true" />
-      <created>1716802738038</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716802738038</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test Commit Jacinth Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Commit Jacinth Branch" />
   </component>
 </project>
